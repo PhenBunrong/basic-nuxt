@@ -1,0 +1,48 @@
+@import 'flag/icons.scss';
+@import 'v-tooltip';
+
+.nuxt-link-exact-active {
+  @apply text-indigo-600;
+}
+
+.v-application {
+  .invoice {
+    &__card {
+      .text-header {
+        @apply text-base font-bold leading-normal;
+      }
+      .text-title {
+        @apply text-base font-bold;
+      }
+      .text-note {
+        @apply text-xs;
+      }
+    }
+    &__table {
+      > .v-data-table__wrapper {
+        @apply m-auto w-280px pr-20px pl-20px;
+
+        > table {
+          @apply border-separate;
+          tr td:not(:last-child) {
+            border: thin dotted gray;
+          }
+          tr td:last-child {
+            border-right: thin dotted gray;
+            border-top: thin dotted gray;
+            border-bottom: thin dotted gray;
+          }
+          tr td {
+            @apply text-xs;
+          }
+        }
+      }
+    }
+  }
+}
+
+.v-time-picker-custom {
+  .v-picker__title {
+    @apply h-84px pt-10px;
+  }
+}

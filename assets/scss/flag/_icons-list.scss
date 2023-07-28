@@ -1,0 +1,8 @@
+@if variable-exists(flag-icons-included-countries) {
+  @each $country in $flag-icons-included-countries {
+    @include flag-icon($country);
+  }
+} @else {
+  @include flag-icon(us);
+  @include flag-icon(km);
+}
