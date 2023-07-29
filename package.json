@@ -12,6 +12,7 @@
     "@chantouchsek/validatorjs": "^1.2.2",
     "camelcase-keys": "^8.0.2",
     "core-js": "^3.25.3",
+    "lru-cache": "^7.18.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",

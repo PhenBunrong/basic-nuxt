@@ -24,7 +24,5 @@ export default {
   modules: [
   ],
 
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
-
   ...config,
 }
