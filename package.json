@@ -24,6 +24,6 @@
     "@nuxtjs/vuetify": "^1.12.3",
     "nuxt-webpack-optimisations": "^2.2.8",
     "sass": "^1.64.1",
-    "sass-loader": "10"
+    "sass-loader": "^10.1.1"
   }
 }
